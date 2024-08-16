@@ -1,0 +1,15 @@
+{
+    "name": "azcodepl/satis",
+    "homepage": "https://satis.azcode.pl",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:azcodepl/AZcodeResourceBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:azcodepl/AZcodeEmailLabsBundle.git"
+        }
+    ],
+    "require-all": true
+}

@@ -1,0 +1,13 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$85d74045abc9d677ade72cf267915d03dbf54bfe.json": {
+            "sha1": "85d74045abc9d677ade72cf267915d03dbf54bfe"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "azcode/emaillabs-bundle",
+        "azcode/resource-bundle"
+    ]
+}

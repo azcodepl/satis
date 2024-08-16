@@ -1,0 +1,112 @@
+{
+    "packages": {
+        "azcode/emaillabs-bundle": [
+            {
+                "name": "azcode/emaillabs-bundle",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeEmailLabsBundle.git",
+                    "reference": "96dfbf2e732fc44b506b5a8bd5743830b7f93f49"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/96dfbf2e732fc44b506b5a8bd5743830b7f93f49",
+                    "reference": "96dfbf2e732fc44b506b5a8bd5743830b7f93f49",
+                    "shasum": ""
+                },
+                "require": {
+                    "azcode/resource-bundle": "@dev",
+                    "php": "^8.3",
+                    "symfony/config": "^7.1",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-client": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/mailer": "^7.1",
+                    "symfony/orm-pack": "^2.4",
+                    "symfony/uid": "^7.1",
+                    "symfony/webhook": "^7.1"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.11",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-08-16T16:45:02+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\EmailLabsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeEmailLabsBundle/tree/v1.0.0",
+                    "issues": "https://github.com/azcodepl/AZcodeEmailLabsBundle/issues"
+                }
+            },
+            {
+                "name": "azcode/emaillabs-bundle",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeEmailLabsBundle.git",
+                    "reference": "6bc7ab6d5f69771bc2a0a382529f8045b874362c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/6bc7ab6d5f69771bc2a0a382529f8045b874362c",
+                    "reference": "6bc7ab6d5f69771bc2a0a382529f8045b874362c",
+                    "shasum": ""
+                },
+                "require": {
+                    "azcode/resource-bundle": "^1.0.0",
+                    "php": "^8.3",
+                    "symfony/config": "^7.1",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-client": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/mailer": "^7.1",
+                    "symfony/orm-pack": "^2.4",
+                    "symfony/uid": "^7.1",
+                    "symfony/webhook": "^7.1"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.11",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-08-16T16:50:20+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\EmailLabsBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeEmailLabsBundle/tree/v1.0.1",
+                    "issues": "https://github.com/azcodepl/AZcodeEmailLabsBundle/issues"
+                }
+            }
+        ]
+    }
+}
