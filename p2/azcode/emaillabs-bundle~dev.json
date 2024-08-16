@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:azcodepl/AZcodeEmailLabsBundle.git",
-                    "reference": "31c3811d468c7241e3c3fcf3312eab0912f3a6a1"
+                    "reference": "2b8fa7765152cb7ce682fc554bf2de9ac417ca2e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/31c3811d468c7241e3c3fcf3312eab0912f3a6a1",
-                    "reference": "31c3811d468c7241e3c3fcf3312eab0912f3a6a1",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/2b8fa7765152cb7ce682fc554bf2de9ac417ca2e",
+                    "reference": "2b8fa7765152cb7ce682fc554bf2de9ac417ca2e",
                     "shasum": ""
                 },
                 "require": {
@@ -32,7 +32,7 @@
                     "phpstan/phpstan": "^1.11",
                     "roave/security-advisories": "dev-latest"
                 },
-                "time": "2024-08-16T16:49:16+00:00",
+                "time": "2024-08-16T19:20:06+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-4": {
@@ -61,12 +61,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:azcodepl/AZcodeEmailLabsBundle.git",
-                    "reference": "6bc7ab6d5f69771bc2a0a382529f8045b874362c"
+                    "reference": "ba382afe02180ade7ec400e34d12b5ed12d0c13a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/6bc7ab6d5f69771bc2a0a382529f8045b874362c",
-                    "reference": "6bc7ab6d5f69771bc2a0a382529f8045b874362c",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/ba382afe02180ade7ec400e34d12b5ed12d0c13a",
+                    "reference": "ba382afe02180ade7ec400e34d12b5ed12d0c13a",
                     "shasum": ""
                 },
                 "require": {
@@ -85,7 +85,7 @@
                     "phpstan/phpstan": "^1.11",
                     "roave/security-advisories": "dev-latest"
                 },
-                "time": "2024-08-16T16:50:20+00:00",
+                "time": "2024-08-16T19:20:37+00:00",
                 "default-branch": true,
                 "type": "symfony-bundle",
                 "autoload": {
@@ -104,7 +104,7 @@
                 ],
                 "description": "Symfony bundle!",
                 "support": {
-                    "source": "https://github.com/azcodepl/AZcodeEmailLabsBundle/tree/v1.0.1",
+                    "source": "https://github.com/azcodepl/AZcodeEmailLabsBundle/tree/v1.0.2",
                     "issues": "https://github.com/azcodepl/AZcodeEmailLabsBundle/issues"
                 }
             }
