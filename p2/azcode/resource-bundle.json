@@ -49,6 +49,55 @@
                     "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.0.0",
                     "issues": "https://github.com/azcodepl/AZcodeResourceBundle/issues"
                 }
+            },
+            {
+                "name": "azcode/resource-bundle",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeResourceBundle.git",
+                    "reference": "811624e0a19cfdaee65b486af999b261d602cd7b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/811624e0a19cfdaee65b486af999b261d602cd7b",
+                    "reference": "811624e0a19cfdaee65b486af999b261d602cd7b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.3",
+                    "symfony/config": "^7.1",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/orm-pack": "^2.4",
+                    "symfony/uid": "^7.1"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.11",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-08-17T08:29:39+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\ResourceBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.1.0",
+                    "issues": "https://github.com/azcodepl/AZcodeResourceBundle/issues"
+                }
             }
         ]
     }
