@@ -4,11 +4,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:azcodepl/AZcodeResourceBundle.git"
+            "url": "git@github.com:azcodepl/AZcodeAddressingBundle.git"
         },
         {
             "type": "vcs",
             "url": "git@github.com:azcodepl/AZcodeEmailLabsBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:azcodepl/AZcodeResourceBundle.git"
         }
     ],
     "require-all": true

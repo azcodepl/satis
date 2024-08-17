@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$fc8f78f09e0853cc03fe6eb072e5a72a3118658c.json": {
-            "sha1": "fc8f78f09e0853cc03fe6eb072e5a72a3118658c"
+        "include/all$f9abd69991a4b5749bc1f4fca3caffd8f43b4792.json": {
+            "sha1": "f9abd69991a4b5749bc1f4fca3caffd8f43b4792"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
+        "azcode/addressing-bundle",
         "azcode/emaillabs-bundle",
         "azcode/resource-bundle"
     ]

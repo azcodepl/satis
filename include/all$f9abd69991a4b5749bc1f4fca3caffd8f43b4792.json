@@ -1,5 +1,106 @@
 {
     "packages": {
+        "azcode/addressing-bundle": {
+            "v1.0.0": {
+                "name": "azcode/addressing-bundle",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeAddressingBundle.git",
+                    "reference": "214c0899d3d5641ff807d6e6f4720d2b2848b00a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeAddressingBundle/zipball/214c0899d3d5641ff807d6e6f4720d2b2848b00a",
+                    "reference": "214c0899d3d5641ff807d6e6f4720d2b2848b00a",
+                    "shasum": ""
+                },
+                "require": {
+                    "azcode/resource-bundle": "^1.1.0",
+                    "php": "^8.3",
+                    "symfony/config": "^7.1",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/orm-pack": "^2.4"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.11",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-08-17T10:44:10+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\AddressingBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeAddressingBundle/tree/v1.0.0",
+                    "issues": "https://github.com/azcodepl/AZcodeAddressingBundle/issues"
+                }
+            },
+            "dev-master": {
+                "name": "azcode/addressing-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeAddressingBundle.git",
+                    "reference": "214c0899d3d5641ff807d6e6f4720d2b2848b00a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeAddressingBundle/zipball/214c0899d3d5641ff807d6e6f4720d2b2848b00a",
+                    "reference": "214c0899d3d5641ff807d6e6f4720d2b2848b00a",
+                    "shasum": ""
+                },
+                "require": {
+                    "azcode/resource-bundle": "^1.1.0",
+                    "php": "^8.3",
+                    "symfony/config": "^7.1",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/orm-pack": "^2.4"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.11",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-08-17T10:44:10+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\AddressingBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeAddressingBundle/tree/v1.0.0",
+                    "issues": "https://github.com/azcodepl/AZcodeAddressingBundle/issues"
+                }
+            }
+        },
         "azcode/emaillabs-bundle": {
             "v1.0.0": {
                 "name": "azcode/emaillabs-bundle",
