@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:azcodepl/AZcodeResourceBundle.git",
-                    "reference": "9cc78b402f9514bbe4c234eb8dd349799f04fe3e"
+                    "reference": "88f9ad052a980ca0954dd7ebf5ffc98093e6af01"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/9cc78b402f9514bbe4c234eb8dd349799f04fe3e",
-                    "reference": "9cc78b402f9514bbe4c234eb8dd349799f04fe3e",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/88f9ad052a980ca0954dd7ebf5ffc98093e6af01",
+                    "reference": "88f9ad052a980ca0954dd7ebf5ffc98093e6af01",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "phpstan/phpstan": "^1.11",
                     "roave/security-advisories": "dev-latest"
                 },
-                "time": "2024-08-17T08:29:01+00:00",
+                "time": "2024-08-17T18:55:12+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-4": {
@@ -57,12 +57,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:azcodepl/AZcodeResourceBundle.git",
-                    "reference": "811624e0a19cfdaee65b486af999b261d602cd7b"
+                    "reference": "d1ec7258763ac16d69a7c6f211803b13eb5b2589"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/811624e0a19cfdaee65b486af999b261d602cd7b",
-                    "reference": "811624e0a19cfdaee65b486af999b261d602cd7b",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/d1ec7258763ac16d69a7c6f211803b13eb5b2589",
+                    "reference": "d1ec7258763ac16d69a7c6f211803b13eb5b2589",
                     "shasum": ""
                 },
                 "require": {
@@ -77,7 +77,7 @@
                     "phpstan/phpstan": "^1.11",
                     "roave/security-advisories": "dev-latest"
                 },
-                "time": "2024-08-17T08:29:39+00:00",
+                "time": "2024-08-17T18:55:56+00:00",
                 "default-branch": true,
                 "type": "symfony-bundle",
                 "autoload": {
@@ -96,7 +96,7 @@
                 ],
                 "description": "Symfony bundle!",
                 "support": {
-                    "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.1.0",
+                    "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.1.1",
                     "issues": "https://github.com/azcodepl/AZcodeResourceBundle/issues"
                 }
             }
