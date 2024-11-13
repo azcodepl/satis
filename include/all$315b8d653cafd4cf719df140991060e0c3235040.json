@@ -50,6 +50,55 @@
                     "issues": "https://github.com/azcodepl/AZcodeAddressingBundle/issues"
                 }
             },
+            "dev-develop": {
+                "name": "azcode/addressing-bundle",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeAddressingBundle.git",
+                    "reference": "a8c0d80738c37b722ea07655293553d8e219e9d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeAddressingBundle/zipball/a8c0d80738c37b722ea07655293553d8e219e9d9",
+                    "reference": "a8c0d80738c37b722ea07655293553d8e219e9d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "azcode/resource-bundle": "^1.1.0",
+                    "php": "^8.3",
+                    "symfony/config": "^7.1",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/orm-pack": "^2.4"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^1.11",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-09-22T22:23:06+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\AddressingBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeAddressingBundle/tree/develop",
+                    "issues": "https://github.com/azcodepl/AZcodeAddressingBundle/issues"
+                }
+            },
             "dev-master": {
                 "name": "azcode/addressing-bundle",
                 "version": "dev-master",
@@ -321,12 +370,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:azcodepl/AZcodeEmailLabsBundle.git",
-                    "reference": "7185735b36493270f66ef58fb1a52bef6061d4f8"
+                    "reference": "b1cf11681c850cb1e503899d3480b0388a06b793"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/7185735b36493270f66ef58fb1a52bef6061d4f8",
-                    "reference": "7185735b36493270f66ef58fb1a52bef6061d4f8",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeEmailLabsBundle/zipball/b1cf11681c850cb1e503899d3480b0388a06b793",
+                    "reference": "b1cf11681c850cb1e503899d3480b0388a06b793",
                     "shasum": ""
                 },
                 "require": {
@@ -345,7 +394,7 @@
                     "phpstan/phpstan": "^1.11",
                     "roave/security-advisories": "dev-latest"
                 },
-                "time": "2024-08-17T08:34:01+00:00",
+                "time": "2024-08-17T08:34:51+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-4": {
@@ -363,7 +412,7 @@
                 ],
                 "description": "Symfony bundle!",
                 "support": {
-                    "source": "https://github.com/azcodepl/AZcodeEmailLabsBundle/tree/develop",
+                    "source": "https://github.com/azcodepl/AZcodeEmailLabsBundle/tree/v1.1.0",
                     "issues": "https://github.com/azcodepl/AZcodeEmailLabsBundle/issues"
                 }
             },
@@ -570,6 +619,102 @@
                     "issues": "https://github.com/azcodepl/AZcodeResourceBundle/issues"
                 }
             },
+            "v1.2.0": {
+                "name": "azcode/resource-bundle",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeResourceBundle.git",
+                    "reference": "a528e7d941e465c17b4ebaf2c0e5391cc14c7fbd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/a528e7d941e465c17b4ebaf2c0e5391cc14c7fbd",
+                    "reference": "a528e7d941e465c17b4ebaf2c0e5391cc14c7fbd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.3",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/orm-pack": "^2.4",
+                    "symfony/uid": "^7.1"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^2.0",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-11-13T19:35:04+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\ResourceBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.2.0",
+                    "issues": "https://github.com/azcodepl/AZcodeResourceBundle/issues"
+                }
+            },
+            "v1.2.1": {
+                "name": "azcode/resource-bundle",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:azcodepl/AZcodeResourceBundle.git",
+                    "reference": "75b774a88b33193fd19113e7d8202290a5b98e52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/75b774a88b33193fd19113e7d8202290a5b98e52",
+                    "reference": "75b774a88b33193fd19113e7d8202290a5b98e52",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.3",
+                    "symfony/dependency-injection": "^7.1",
+                    "symfony/http-kernel": "^7.1",
+                    "symfony/orm-pack": "^2.4",
+                    "symfony/uid": "^7.1"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^2.0",
+                    "roave/security-advisories": "dev-latest"
+                },
+                "time": "2024-11-13T19:37:58+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "AZcode\\Bundle\\ResourceBundle\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Adam Ziemniewicz",
+                        "email": "adam.ziemniewicz@azcode.pl"
+                    }
+                ],
+                "description": "Symfony bundle!",
+                "support": {
+                    "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.2.1",
+                    "issues": "https://github.com/azcodepl/AZcodeResourceBundle/issues"
+                }
+            },
             "dev-develop": {
                 "name": "azcode/resource-bundle",
                 "version": "dev-develop",
@@ -577,27 +722,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:azcodepl/AZcodeResourceBundle.git",
-                    "reference": "88f9ad052a980ca0954dd7ebf5ffc98093e6af01"
+                    "reference": "ae3eca8d8ee9fecc66b7231c9f7874c9159b96ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/88f9ad052a980ca0954dd7ebf5ffc98093e6af01",
-                    "reference": "88f9ad052a980ca0954dd7ebf5ffc98093e6af01",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/ae3eca8d8ee9fecc66b7231c9f7874c9159b96ec",
+                    "reference": "ae3eca8d8ee9fecc66b7231c9f7874c9159b96ec",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^8.3",
-                    "symfony/config": "^7.1",
                     "symfony/dependency-injection": "^7.1",
                     "symfony/http-kernel": "^7.1",
                     "symfony/orm-pack": "^2.4",
                     "symfony/uid": "^7.1"
                 },
                 "require-dev": {
-                    "phpstan/phpstan": "^1.11",
+                    "phpstan/phpstan": "^2.0",
                     "roave/security-advisories": "dev-latest"
                 },
-                "time": "2024-08-17T18:55:12+00:00",
+                "time": "2024-11-13T19:37:25+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-4": {
@@ -626,27 +770,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:azcodepl/AZcodeResourceBundle.git",
-                    "reference": "d1ec7258763ac16d69a7c6f211803b13eb5b2589"
+                    "reference": "75b774a88b33193fd19113e7d8202290a5b98e52"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/d1ec7258763ac16d69a7c6f211803b13eb5b2589",
-                    "reference": "d1ec7258763ac16d69a7c6f211803b13eb5b2589",
+                    "url": "https://api.github.com/repos/azcodepl/AZcodeResourceBundle/zipball/75b774a88b33193fd19113e7d8202290a5b98e52",
+                    "reference": "75b774a88b33193fd19113e7d8202290a5b98e52",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^8.3",
-                    "symfony/config": "^7.1",
                     "symfony/dependency-injection": "^7.1",
                     "symfony/http-kernel": "^7.1",
                     "symfony/orm-pack": "^2.4",
                     "symfony/uid": "^7.1"
                 },
                 "require-dev": {
-                    "phpstan/phpstan": "^1.11",
+                    "phpstan/phpstan": "^2.0",
                     "roave/security-advisories": "dev-latest"
                 },
-                "time": "2024-08-17T18:55:56+00:00",
+                "time": "2024-11-13T19:37:58+00:00",
                 "default-branch": true,
                 "type": "symfony-bundle",
                 "autoload": {
@@ -665,7 +808,7 @@
                 ],
                 "description": "Symfony bundle!",
                 "support": {
-                    "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.1.1",
+                    "source": "https://github.com/azcodepl/AZcodeResourceBundle/tree/v1.2.1",
                     "issues": "https://github.com/azcodepl/AZcodeResourceBundle/issues"
                 }
             }
